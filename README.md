@@ -1,1 +1,6 @@
-react-pokedex
+Usage
+-----
+
+#### `npm install`
+
+#### `npm start`
