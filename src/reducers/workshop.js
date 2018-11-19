@@ -10,9 +10,6 @@ const input = {
 
 export default function sidebar(state = input, action) {
     switch (action.type) {
-    case types.SWITCH_TOOL: {
-        return newState(state, { tool: action.tool });
-    }
     case types.MAIN_POKEMON_CALL: {
         return newState(state, { pokemonList: action.list });
     }
