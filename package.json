@@ -45,7 +45,7 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "webpack": "^4.8.2",
-    "webpack-cli": "^2.0.9",
+    "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.0.0"
   }
 }
