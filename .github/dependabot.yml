@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack-cli
+    versions:
+    - 4.3.1
+    - 4.4.0
+  - dependency-name: sass-loader
+    versions:
+    - 10.1.0
+    - 10.1.1
+  - dependency-name: css-loader
+    versions:
+    - 5.0.1
